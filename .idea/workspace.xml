@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/labs/a1/face.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/labs/a1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/edit-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/tuit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tuiter/video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +60,11 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.tuit.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="edit-profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/tuiter/edit-profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/tuiter/home.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/labs/a1/index.html" useBuiltInWebServerPort="true">
@@ -84,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.tuit.html" />
         <item itemvalue="JavaScript Debug.profile.html" />
         <item itemvalue="JavaScript Debug.edit-profile.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
       </list>
     </recent_temporary>
   </component>
