@@ -1,0 +1,53 @@
+.wd-container {
+    width: 100%;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.wd-img{
+    border-radius: 24px;
+}
+
+.wd-label {
+    font-weight: bold;
+    padding-left: 50px;
+    white-space: nowrap;
+}
+
+.wd-dots{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.wd-dot{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.wd-edit-profile {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wd-video{
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.wd-colors{
+    color: black;
+    font-weight: bold;
+}
+
+.wd-color{
+    color: darkgray;
+}

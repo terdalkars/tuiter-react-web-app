@@ -1,0 +1,103 @@
+.search-container {
+    padding: 10px;
+}
+.search-input {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+    color: darkgray;
+}
+.search-icon {
+    margin-left: -915px;
+    color: darkgray;
+}
+.gear-icon {
+    margin-left: 1080px;
+    color: black;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*https://codepen.io/TimothyMwangi/pen/VpXGXa*/
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,.nav-pills > li > a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    border-radius:0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    color: black;
+    background-color: transparent;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 130px;
+    padding-top: 20px;
+}
+.nav-pills > li > a{
+    border-radius:0px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 130px;
+    padding-top: 20px;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+}
+
+.edit-profile {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.wd-container {
+    width: 100%;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.wd-label {
+    color: darkgray;
+}
+
+.wd-dot{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.wd-a{
+    color: black;
+    font-weight: bold;
+}
