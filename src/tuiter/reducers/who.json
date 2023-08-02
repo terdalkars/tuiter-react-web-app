@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 123,
+    "userName": "NASA",
+    "handle": "NASA",
+    "avatarIcon": "https://upload.wikimedia.org/wikipedia/commons/1/10/Alia_Bhatt_at_Berlinale_2022_Ausschnitt.jpg"
+  },
+  {
+    "_id": 234,
+    "userName": "Tesla",
+    "handle": "tesla",
+    "avatarIcon": "https://upload.wikimedia.org/wikipedia/commons/7/74/Varun_Dhawan_promoting_Badrinath_Ki_Dulhania.jpg"
+  },
+  {
+    "_id": 345,
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "avatarIcon": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sidharth_Malhotra_2016.jpg"
+  }
+]
