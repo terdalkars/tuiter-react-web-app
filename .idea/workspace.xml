@@ -2,30 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/redux-examples/hello-redux-example-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/redux-examples/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/redux-examples/reducers/hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/redux-examples/reducers/todos-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/labs/a4/redux-examples/todos-component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/who-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/who.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/tuits/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuit-stats-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/whats-happening.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-thunks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/labs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/home-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/home-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuit-summary-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuit-summary-list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuit-summary-list/tuits.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuit-summary-list/tuits.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/who-to-follow-list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/profile-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuit-stats-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuit-stats-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/whats-happening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/whats-happening.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

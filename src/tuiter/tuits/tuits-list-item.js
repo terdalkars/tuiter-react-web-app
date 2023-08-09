@@ -6,6 +6,7 @@ import { FcLike } from "react-icons/fc";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "../reducers/tuits-reducer";
 import {AiOutlineClose} from "react-icons/ai";
+import {deleteTuitThunk} from "../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -29,7 +30,8 @@ const TuitItem = (
     //const { tuits } = useSelector(state => state.tuits)
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        //dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <li className="list-group-item">
