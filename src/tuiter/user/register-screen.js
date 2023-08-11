@@ -1,16 +1,17 @@
 import {useState} from "react";
 import { register } from "../services/auth-service";
+import {useNavigate} from "react-router";
 
 function RegisterScreen() {
     const [user, setUser] = useState({
         username:"",
         password:""
     })
+    const navigate = useNavigate();
     const handleRegister = async (e) => {
         e.preventDefault();
         const newUser = await register(user);
-        console.log(newUser);
-        setUser(newUser);
+        navigate("/tuiter/user/profile");
 };
     return (
         <div>

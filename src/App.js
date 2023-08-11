@@ -1,8 +1,8 @@
 import Labs from "./labs";
 import HelloWorld from "./labs/a3/hello-world";
 import Tuiter from "./tuiter";
+import {Navigate, Route, Routes} from "react-router";
 import {HashRouter} from "react-router-dom";
-import {Routes, Route, Navigate} from "react-router";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

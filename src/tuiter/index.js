@@ -5,7 +5,6 @@ import HomeScreen from "./home-screen";
 import BookmarksScreen from "./bookmarks-screen";
 import ExploreScreen from "./explore-screen/index";
 import Profile from "./profile";
-import WhoToFollowListItem from "./who-to-follow-list/who-to-follow-list-item";
 import WhoToFollowList from "./who-to-follow-list";
 import whoReducer from "./reducers/who-reducer";
 import { configureStore } from '@reduxjs/toolkit';
@@ -14,14 +13,10 @@ import tuitsReducer from "./reducers/tuits-reducer";
 import authReducer from "./reducers/auth-reducer";
 import LoginScreen from "./user/login-screen";
 import ProfileScreen from "./user/profile-screen";
+import RegisterScreen from "./user/register-screen";
 
 const store = configureStore(
     {reducer: {who: whoReducer, tuits: tuitsReducer, user:  authReducer}});
-
-
-function RegisterScreen() {
-    return null;
-}
 
 function Tuiter() {
     return (

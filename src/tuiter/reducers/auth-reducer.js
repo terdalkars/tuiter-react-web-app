@@ -1,5 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import {loginThunk, logoutThunk, profileThunk, updateUserThunk} from "../services/auth-thunks";
+import {loginThunk, register, logoutThunk, profileThunk, updateUserThunk} from "../services/auth-thunks";
 
 
 const authSlice = createSlice({
@@ -22,9 +22,9 @@ const authSlice = createSlice({
         [updateUserThunk.fulfilled]: (state, { payload }) => {
             state.currentUser = payload;
         },
-        // [register.fulfilled]: (state, { payload }) => {
-        //     state.currentUser = payload;
-        // },
+        [register.fulfilled]: (state, { payload }) => {
+            state.currentUser = payload;
+        },
         [loginThunk.fulfilled]: (state, { payload }) => {
             state.currentUser = payload;
         },

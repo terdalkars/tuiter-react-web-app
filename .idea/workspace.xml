@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-thunks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/profile-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/tuits-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuit-stats-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuit-stats-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/tuits/tuits-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/whats-happening.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/whats-happening.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +69,29 @@
       <recent name="$PROJECT_DIR$/public/tuiter" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.navigation.html">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="bookmarks-css.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/tuiter/bookmarks/bookmarks-css.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/labs/a2/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/labs/a1/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="navigation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tuiter-react-web-app/public/tuiter/navigation.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="App.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/index.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.navigation.html" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.App.js" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.navigation.html" />
         <item itemvalue="JavaScript Debug.bookmarks-css.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
       </list>
     </recent_temporary>
   </component>
