@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/reducers/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/tuits-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

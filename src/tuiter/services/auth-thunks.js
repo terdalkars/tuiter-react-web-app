@@ -9,8 +9,9 @@ export const loginThunk = createAsyncThunk(
     }
 );
 
-export const register = createAsyncThunk(
-    "user/login", async (credentials) => {
+export const registerThunk = createAsyncThunk(
+    "user/register", async (credentials) => {
+        console.log("register thunk ", credentials);
         const user = await authService.register(credentials);
         return user;
     }
@@ -18,6 +19,7 @@ export const register = createAsyncThunk(
 
 export const profileThunk = createAsyncThunk(
     "auth/profile", async () => {
+        console.log("profile thunk");
         const response = authService.profile();
         return response.data;
     });
