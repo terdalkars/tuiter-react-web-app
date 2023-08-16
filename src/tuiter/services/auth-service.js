@@ -1,10 +1,96 @@
+// // import axios from "axios";
+// // const SERVER_API_URL = process.env.REACT_APP_SERVER_API_URL;
+// // const USERS_URL = `${SERVER_API_URL}/users`;
+// //
+// // const api = axios.create({ withCredentials: true });
+// //
+// //
+// // export const login = async ({ username, password }) => {
+// //     const response = await api.post(`${USERS_URL}`, { username, password });
+// //     const user = response.data;
+// //     return user;
+// // };
+// //
+// // export const logout = async () => {
+// //     const response = await api.post(`${USERS_URL}/logout`);
+// //     return response.data;
+// // };
+// //
+// // // export const profile = async () => {
+// // //     console.log("profile service");
+// // //     const response = await api.post(`${USERS_URL}/profile`);
+// // //     return response;
+// // // };
+// //
+// // // export const updateUser = async (user) => {
+// // //     const response = await api.put(`${USERS_URL}/${user._id}`, user);
+// // //     return response.data;
+// // // };
+// //
+// // export const updateUser = async (user) => {
+// //     console.log("update user service in react", user);
+// //     const response = await api.put(`${USERS_URL}`, user);
+// //     return response.data;
+// // };
+// //
+// // export const profile = async () => {
+// //     const response = await api.post(`${USERS_URL}/profile`);
+// //     return response.data;
+// // };
+// //
+// // export const register = async ({ username, password }) => {
+// //     console.log(USERS_URL);
+// //     console.log("register service ",username, password);
+// //     const response = await api.post(`${USERS_URL}`, { username, password });
+// //     return response.data;
+// // };
+// //
+//
+// import { createAsyncThunk } from "@reduxjs/toolkit";
+// import * as authService from "./auth-service";
+//
+//
+//
+// export const loginThunk = createAsyncThunk(
+//     "user/login",
+//     async (credentials) => {
+//         const user = await authService.login(credentials);
+//         return user;
+//     }
+// );
+//
+//
+//
+// export const profileThunk = createAsyncThunk("auth/profile", async () => {
+//     return await authService.profile();
+// });
+// export const logoutThunk = createAsyncThunk("auth/logout", async () => {
+//     return await authService.logout();
+// });
+// export const updateUserThunk = createAsyncThunk(
+//     "user/updateUser",
+//     async (user) => {
+//         await authService.updateUser(user);
+//         return user;
+//     }
+// );
+//
+//
+//
+// export const registerThunk = createAsyncThunk(
+//     "user/register",
+//     async (credentials) => {
+//         const user = await authService.register(credentials);
+//         return user;
+//     }
+// );
+
+
 import axios from "axios";
 const SERVER_API_URL = process.env.REACT_APP_SERVER_API_URL;
 const USERS_URL = `${SERVER_API_URL}/users`;
 
-
 const api = axios.create({ withCredentials: true });
-
 
 export const login = async ({ username, password }) => {
     const response = await api.post(`${USERS_URL}/login`, { username, password });
@@ -16,19 +102,18 @@ export const logout = async () => {
     const response = await api.post(`${USERS_URL}/logout`);
     return response.data;
 };
-
 export const profile = async () => {
     const response = await api.post(`${USERS_URL}/profile`);
-    return response;
+    return response.data;
 };
-
 export const updateUser = async (user) => {
-    const response = await api.put(`${USERS_URL}/${user._id}`, user);
+    const response = await api.put(`${USERS_URL}`, user);
     return response.data;
 };
-
 export const register = async ({ username, password }) => {
-    const response = await axios.post(`${USERS_URL}/register`, { username, password });
+    const response = await api.post(`${USERS_URL}/register`, {
+        username,
+        password,
+    });
     return response.data;
 };
-
