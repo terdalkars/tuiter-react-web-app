@@ -4,7 +4,6 @@ import NavigationSidebar from "./navigation-sidebar";
 import HomeScreen from "./home-screen";
 import BookmarksScreen from "./bookmarks-screen";
 import ExploreScreen from "./explore-screen/index";
-import Profile from "./profile";
 import WhoToFollowList from "./who-to-follow-list";
 import whoReducer from "./reducers/who-reducer";
 import { configureStore } from '@reduxjs/toolkit';
@@ -32,7 +31,6 @@ function Tuiter() {
                             <Route path="/home" element={<HomeScreen/>} />
                             <Route path="/explore" element={<ExploreScreen />} />
                             <Route path="/bookmarks" element={<BookmarksScreen />} />
-                            <Route path="/profile" element={<Profile />} />
                             <Route path="/notifications" element={<h1>Notifications</h1>}/>
                             <Route path="/messages" element={<h1>Messages</h1>}/>
                             <Route path="/lists" element={<h1>Lists</h1>}/>

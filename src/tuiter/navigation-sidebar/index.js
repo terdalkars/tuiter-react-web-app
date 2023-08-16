@@ -6,7 +6,7 @@ const NavigationSidebar = () => {
     const { currentUser } = useSelector((state) => state.user);
     const { pathname } = useLocation();
     const [ignore, tuiter, active] = pathname.split("/");
-    const links = ["home",     "explore",   "notifications", "messages", "bookmarks", "lists", "profile",  "more"];
+    const links = ["home",     "explore",   "notifications", "messages", "bookmarks", "lists", "more"];
     return (
         <div className="list-group">
             {links.map((link) =>
