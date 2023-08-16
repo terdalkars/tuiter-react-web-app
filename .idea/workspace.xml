@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="" />
+    <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688953358069</updated>
       <workItem from="1688953359633" duration="14119000" />
-      <workItem from="1692227108407" duration="1303000" />
+      <workItem from="1692227108407" duration="1394000" />
     </task>
     <servers />
   </component>
