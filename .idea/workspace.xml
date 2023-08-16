@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/navigation-sidebar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/services/auth-thunks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/login-screen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/profile-screen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuiter/user/register-screen.js" afterDir="false" />
-    </list>
+    <list default="true" id="ef8c98e0-4432-424f-8614-cc84aa09eae6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688953358069</updated>
       <workItem from="1688953359633" duration="14119000" />
-      <workItem from="1692227108407" duration="991000" />
+      <workItem from="1692227108407" duration="1303000" />
     </task>
     <servers />
   </component>
